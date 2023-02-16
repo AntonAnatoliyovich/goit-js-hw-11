@@ -33,16 +33,4 @@ export default function renderImage(image) {
             </div>
         </div>`
     gallary.insertAdjacentHTML("beforeend", card)
-    // console.log(image);
 }
-
-
-/*
-webformatURL - посилання на маленьке зображення для списку карток.
-largeImageURL - посилання на велике зображення.
-tags - рядок з описом зображення. Підійде для атрибуту alt.
-likes - кількість лайків.
-views - кількість переглядів.
-comments - кількість коментарів.
-downloads - кількість завантажень.
-*/
