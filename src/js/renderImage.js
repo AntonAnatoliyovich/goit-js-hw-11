@@ -11,7 +11,7 @@ export default function renderImage(image) {
         downloads,
     } = image;
 
-    const card = `<div class="photo-card">
+    const card = `<div class="photo-card" height=290>
             <a href="${largeImageURL}"><img src="${webformatURL}" alt="${tags}" loading="lazy" /></a>
             <div class="info">
                 <p class="info-item">

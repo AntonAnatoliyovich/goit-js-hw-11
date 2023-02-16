@@ -1,9 +1,8 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 
 .search-form {
-    background-color: aquamarine;
+    background-color: yellowgreen;
     display: flex;
-    position: sticky;
     justify-content: center;
     align-items: center;
     padding-top: 30px;
@@ -27,7 +26,7 @@
 .button {
     color: #fff;
     cursor: pointer;
-    background-color: #4d4d5c;
+    background-color: green;
     padding: 9px 23px;
     transition: background-color .3s linear;
 }
@@ -56,6 +55,54 @@
     box-shadow: 5px 5px 5px rgb(137 180 73 / 80%);
 }
 
+.photo-card img {
+    width: 100%;
+    max-width: 300px;
+    height: 220px;
+    display: block;
+    overflow: hidden;
+}
+
+.info {
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    display: flex;
+}
+
+.info-item {
+    text-align: center;
+    color: #2d4707;
+    font-weight: 700;
+}
+
+.info-item b {
+    color: #5b8d10;
+    font-weight: 600;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 .load-more {
     display: none;
+
+    border-radius: 10px;
+    margin: 0 auto 50px;
+    display: block;
+
+    color: #fff;
+    cursor: pointer;
+    background-color: #4d4d5c;
+    padding: 9px 23px;
+    transition: background-color .3s linear;
+}
+
+.load-more:hover {
+    background-color: rgba(77,77,92,.6);
 }
