@@ -38,6 +38,24 @@
     border-bottom-right-radius: 10px;
 }
 
+.gallery {
+    max-width: 1280px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 15px auto 25px;
+    padding: 0 15px;
+    display: flex;
+}
+
+.photo-card {
+    max-width: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgb(137 180 73 / 80%);
+}
+
 .load-more {
     display: none;
 }
