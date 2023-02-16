@@ -1,5 +1,43 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 
+.search-form {
+    background-color: aquamarine;
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.search-form input {
+    width: 350px;
+    border: 2px solid #000;
+    border-right: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.button {
+    color: #fff;
+    cursor: pointer;
+    background-color: #4d4d5c;
+    padding: 9px 23px;
+    transition: background-color .3s linear;
+}
+
+.search-card {
+    border-left: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 .load-more {
     display: none;
 }
